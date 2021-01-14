@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Lab-2</title>
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+</head>
+<body>	
+<header>
+	<div class="header">
+		<div class="logo">
+			<a href="index-2.html"><img src="./img/logo.png" alt="logo"></a>
+		</div>
+		<ul class="header-1">
+			<li><a href="#">Про нас</a></li>
+			<li><a href="#">Меню</a>
+				<ul class="header-2">
+					<li><a href="#">Гамбургери</a></li>
+					<li><a href="#">Ход-доги</a></li>
+					<li><a href="#">Десерти</a></li>
+					<li><a href="#">Салати</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Доставка</a></li>
+			<li><a href="#">Відгуки</a></li>
+			<li><a href="./contacts.html">Контакти</a></li>
+		</ul>
+	
+		<div class="menu-mobile-0">
+			<a id="open-menu" href="#"><i class="fas fa-hamburger burger-open"></i></a>
+		</div>
+		<div class="menu-mobile-1">
+			<a id="close-menu" href="#"><i class="fas fa-times burger-close"></i></a>
+			<nav class="menu-nav">
+				<ul class="burger-menu-1">
+					<li><a href="#">Про нас</a></li>
+					<li>
+						<input type="checkbox" class="sub-menu" id="sub-menu-id">
+						<label for="sub-menu-id" class="sub-menu">Меню <i class="fas fa-angle-double-down"></i></label>
+						<ul class="burger-menu-2">
+							<li><a href="#">Гамбургери</a></li>
+							<li><a href="#">Ход-доги</a></li>
+							<li><a href="#">Десерти</a></li>
+							<li><a href="#">Салати</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Доставка</a></li>
+					<li><a href="#">Відгуки</a></li>
+					<li><a href="./contacts.html">Контакти</a></li>
+			</ul>
+			</nav>
+		</div>
+	</div>
+</header>
+<section>
+	<div class="contacts">
+		<div class="red-line-contacts">
+			<div class="text-red-line-contacts">
+				<p>Контакти</p>
+			</div>			
+		</div>
+		<div class="text-contacts">
+			<p>Найкращий зв'язок з нами - це форма нижче</p>			
+		</div>
+	</div>
+	<div class="form-back">
+		<form action="" id="formContact" name="myForm" class="form-to-contact">
+			<table>
+					<td>
+			            <label class="name-line youname" for="name">Ім'я:</label>
+			        </td>
+				<tr>
+			        
+			        <td>
+			            <input class="input-text field" type="text" id="uname" name="username" placeholder="Анатолій" >
+			        </td>
+			    </tr>
+			    	<td>
+			            <label class="name-line youname" for="uname">Прізвище:</label>
+			        </td>
+			    <tr>
+			        
+			        <td>
+			            <input class="input-text field" type="text" id="uname" name="username" placeholder="Фіцак" >
+			        </td>
+			    </tr>
+			    	<td>
+		                <label class="name-line" for="uemail">E-mail:</label>
+		            </td>
+			    <tr>
+			    			            
+		            <td>
+		                <input class="input-text field" type="text" id="uemail" name="usermail" placeholder="Введіть ваш E-mail">
+		            </td>
+		        </tr>
+		        	<td>
+		                <label class="name-line" for="phone">Номер телефону:</label>
+		            </td>
+		            <tr>
+		            	<td>
+				        	<label><input class="input-text number field" type="text" name="num" placeholder="+380"></label>
+				        </td>	
+		            </tr>
+		        
+		        </tr>
+		        	<td>
+		                <label class="name-line">Стать</label>
+		            </td>		        	
+		        <tr>
+		        			            
+		            <td>
+		                <label>
+		                    <input class="field" type="radio" value="f" name="gender"> Чоловік</label>
+		                <label>
+		                    <input class="field" value="m" type="radio" name="gender"> Жінка</label>
+		            </td>
+		        </tr>
+		        	<td>
+		                <label class="name-line">Ваше повідомлення:</label>
+		            </td>
+		        <tr>
+		            
+		            <td>
+		                <textarea class="input-text field" rows="4" cols="40" placeholder="Я хочу замовити..."></textarea>
+		            </td>
+		        </tr>
+		        <tr>		            
+		            <td>
+		                <input class="button-contacts submit-form" id="buttonsub" type="submit" value="Надіслати">
+		                <input class="button-contacts" id="resetbtn" type="reset">
+		            </td>
+		        </tr>
+			</table>
+		</form>
+	</div>
+</section>
+<section style="margin-top: 65px;">
+	<div class="messages">
+		<div class="icon-1"><a href="#"><i class="fab fa-instagram"></i> Instagram</a></div>
+		<div class="icon-1"><a href="#"><i class="fab fa-facebook"></i> Facebook</a></div>
+		<div class="icon-1"><a href="#"><i class="fab fa-telegram"></i> Telegram</a></div>
+	</div>
+</section>	
+	<script src="https://code.jquery.com/jquery-2.2.4.js?ver=1.0"></script>	
+	<script src="./js/menu-mobile.js"></script>
+	<script src='./js/form-script.js'></script>
+	<script src='./js/addevent.js'></script>
+</body>
+</html>

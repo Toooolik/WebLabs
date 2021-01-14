@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Lab-2</title>
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+</head>
+<body class="page">	
+<header>
+	<div class="header">
+		<div class="logo">
+			<a href="index-2.html"><img src="./img/logo.png" alt="logo"></a>
+		</div>
+		<div class="themeButton">
+				<div class="checkTheme"></div>
+		</div>
+		<ul class="header-1">
+			<li><a href="#">Про нас</a></li>
+			<li><a href="#">Меню</a>
+				<ul class="header-2">
+					<li><a href="#">Гамбургери</a></li>
+					<li><a href="#">Ход-доги</a></li>
+					<li><a href="#">Десерти</a></li>
+					<li><a href="#">Салати</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Доставка</a></li>
+			<li><a href="#">Відгуки</a></li>
+			<li><a href="./contacts.html">Контакти</a></li>
+		</ul>
+	
+		<div class="menu-mobile-0">
+			<a id="open-menu" href="#"><i class="fas fa-hamburger burger-open"></i></a>
+		</div>
+		<div class="menu-mobile-1">
+			<a id="close-menu" href="#"><i class="fas fa-times burger-close"></i></a>
+			<nav class="menu-nav">
+				<ul class="burger-menu-1">
+					<li><a href="#">Про нас</a></li>
+					<li>
+						<input type="checkbox" class="sub-menu" id="sub-menu-id">
+						<label for="sub-menu-id" class="sub-menu">Меню <i class="fas fa-angle-double-down"></i></label>
+						<ul class="burger-menu-2">
+							<li><a href="#">Гамбургери</a></li>
+							<li><a href="#">Ход-доги</a></li>
+							<li><a href="#">Десерти</a></li>
+							<li><a href="#">Салати</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Доставка</a></li>
+					<li><a href="#">Відгуки</a></li>
+					<li><a href="./contacts.html">Контакти</a></li>
+			</ul>
+			</nav>
+		</div>
+	</div>
+</header>
+<section>
+	<div class="content-burger">
+		<div class="red-line">
+			<div>
+				<p></p>
+			</div>
+			<div class="text-red-line">
+				<p>Найкращі бургери <br> Львова</p>
+			</div>			
+		</div>
+		<div class="object-1">
+			<div class="burger-1">
+				<div class="burger-2">
+					<img  class="burgerPhoto" src="./img/burger.png" alt="burger">
+				</div>				
+			</div>
+			<div class="content-blocku">
+				<div class="blocku-z-opusom">
+					<div class="title">
+						<p>Булочка</p>
+					</div>
+					<p class="text-blocku">
+						Найсвіжіша пшенична булочка власного виробництва		
+					</p>			
+				</div>
+				<div class="blocku-z-opusom">
+					<div class="title">
+						<p>Овочі</p>
+					</div>
+					<p class="text-blocku">
+						Тільки українські натуральні овочі		
+					</p>	
+				</div>
+				<div class="blocku-z-opusom">
+					<div class="title">
+						<p>М'ясо</p>
+					</div>
+					<p class="text-blocku">
+						Готуємо тільки з відбірного свіжого м'яса		
+					</p>	
+				</div>
+			</div>		
+		</div>
+		<div class="button-0">
+			<div></div>
+			<div class="button">
+				<button class="button-1">Замовити</button>				
+			</div>
+		</div>		
+	</div>
+</section>
+<section class="messages-0">
+	<div class="messages">
+		<div class="icon-1"><a href="#"><i class="fab fa-instagram"></i> Instagram</a></div>
+		<div class="icon-1"><a href="#"><i class="fab fa-facebook"></i> Facebook</a></div>
+		<div class="icon-1"><a href="#"><i class="fab fa-telegram"></i> Telegram</a></div>
+	</div>
+</section>		
+	<script src="https://code.jquery.com/jquery-2.2.4.js?ver=1.0"></script>	
+	<script src="./js/menu-mobile.js"></script>
+	<script src="./js/darkTheme.js"></script>
+</body>
+</html>
